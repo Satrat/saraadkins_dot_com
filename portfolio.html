@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sara Adkins-Code</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./skin/blue.monday/css/jplayer.blue.monday.css">
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/jquery.jplayer.min.js"></script>
+    <script src="./js/jquery.jplayer.inspector.min.js"></script> 
+    <script src="./js/jplayer.playlist.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#jquery_jplayer_4").jPlayer({
+          ready: function () {
+            $(this).jPlayer("setMedia", {
+              title: "Machine Cycle",
+              mp3: "./Audio/Machine_Cycle.mp3"
+            });
+          },
+          cssSelectorAncestor: "#jp_container_4",
+          swfPath: "./js",
+          supplied: "mp3",
+          useStateClassSkin: true,
+          autoBlur: false,
+          smoothPlayBar: true,
+          keyEnabled: true,
+          remainingDuration: true,
+          toggleDuration: true
+        });
+      });
+    </script>
+  </head>
+  <body>
+          <div class = "centerContent">
+            <div class = "header">
+                <div class = "back"><a href="index.html"><img src="Images/back-arrow.gif" alt="Home" style="border-radius: 25px 0px 0px 0px"></a></div>
+                <div class = "icon"><img src="Images/portfolio.gif" alt="Code icon"><h3>Code</h3></div>
+            </div>
+            <div class = "contentMenu">
+            <div class = "contentMenuItem">
+                <a href="about.html"><img src="Images/about.gif" alt="About icon"></a>
+            </div>
+            <div class = "contentMenuItem">
+                <a href="resume.html"><img src="Images/resume.gif" alt="Resume icon"></a>
+            </div>
+            <div class = "contentMenuItem">
+                <a href="music.html"><img src="Images/music.gif" alt="Music icon"></a>
+            </div>
+            <div class = "contentMenuItem">
+                <a href="contact.html"><img src="Images/contact.gif" alt="Contact Me icon"></a>
+            </div>
+            </div>
+            <div class = "content" id = "codeContent">
+              <a name = "top"></a>
+              <img src="Images/creating_w_machine.jpg" alt="Creating with the Machine" style ="padding-top: 40px">
+              <h5>Creating with the Machine: Interactive Algorithmic Composition for Live Performance</h5>
+              <p><b>Tech: </b>Python, Max MSP, TensorFlow, MIDI, OSC</p>
+              <p><b>Awards: </b>Henry Armero Memorial Award for BCSA; an award to honor the memory of <a href="http://henryarmero.com/">Henry Armero.</a></p>
+              <p>In a live concert setting, the movement and energy of performers adds important emotional elements to a music listening experience. Computer-generated music can achieve precision and technique not possible by human musicians, yet it can feel alienating and impersonal due to a lack of human connection and emotion. "Creating with the Machine" is a set of compositions that combine algorithmic and traditional methods of music composition into live performances to explore how interactive generative algorithms can influence creativity in musical improvisation and create a compelling listening experience for the audience. </p>
+       
+             <p>Three compositions were created and premiered, each showcasing a different algorithmic composition technique. The first composition, "Machine Cycle," utilizes Markov chains to melodically alter and playback phrases from a keyboard player in real time, creating a loop between the algorithm and performer.</p>
+
+             <div class = "holder" align ="center">
+              <div id="jquery_jplayer_4" class="jp-jplayer"></div>
+              <div id="jp_container_4" class="jp-audio" role="application" aria-label="media player">
+                <div class="jp-type-single">
+                  <div class="jp-gui jp-interface" align = "left">
+                    <div class="jp-controls">
+                      <button class="jp-play" role="button" tabindex="0">play</button>
+                      <button class="jp-stop" role="button" tabindex="0">stop</button>
+                    </div>
+                    <div class="jp-progress">
+                      <div class="jp-seek-bar">
+                        <div class="jp-play-bar"></div>
+                      </div>
+                    </div>
+                    <div class="jp-volume-controls">
+                      <button class="jp-mute" role="button" tabindex="0">mute</button>
+                      <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+                      <div class="jp-volume-bar">
+                        <div class="jp-volume-bar-value"></div>
+                      </div>
+                    </div>
+                    <div class="jp-time-holder">
+                      <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+                      <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+                      <div class="jp-toggles">
+                        <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="jp-details">
+                    <div class="jp-title" aria-label="title">&nbsp;</div>
+                  </div>
+                  <div class="jp-no-solution">
+                    <span>Update Required</span>
+                    To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                  </div>
+                </div>
+              </div>
+              </div>
+
+             <p>The second composition, "Recurrent Neural Networks on Bach," generates polyphonic phrases during the training of a recurrent LSTM neural network and uses performer-controlled time stretching to accent the gradual transition from chaotic noise to tonal harmony.</p>
+             <center><iframe width="560" height="315" src="https://www.youtube.com/embed/pQcr6JFpbO4?start=10491" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+
+             <p>Finally, the third composition, "Breathe," captures the breathing of a performer to manipulate the frequency spectrum of their instrument as they improvise. These performances all aim to meld the themes of creativity and computation in order to expose the audience to the use of automation and randomness for artistic purposes.</p>
+             <center><iframe width="560" height="315" src="https://www.youtube.com/embed/pQcr6JFpbO4?start=23280" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
+              </br>
+              <img src="Images/HoloLens2.jpg" alt="Dynamic Reverb Simulation for HoloLens" style ="padding-top: 40px">
+              <h5>Dynamic Reverb Simulation for HoloLens</h5>
+              <p><b>Tech:</b>HoloLens, Unity, C#</p>
+              <p><b>Git:</b> <a href ="https://github.com/Satrat/Raytracing-Sound-in-3D-Space-Using-the-Microsoft-HoloLens">https://github.com/Satrat/Raytracing-Sound-in-3D-Space-Using-the-Microsoft-HoloLens</a></p>
+              <p><b>YouTube:</b> <a href ="https://www.youtube.com/watch?v=HtJZRteUPh0&feature=youtu.be">https://www.youtube.com/watch?v=HtJZRteUPh0&feature=youtu.be</a></p>
+              <p>This HoloLens application simulates sound propogation in augmented reality in order to create realistic echo effects that take into acount the topology of the AR environment during reverb calculations. The size and shape of a room, as well as the presence of obstacles, can significantly influence sound, and taking these parameters into consideration can improve imersion in an augmented reality environment. Sound propogation is simulated using a parallelized ray tracing algorithm that approximates how sound bouces around a room by modeling the waves as rays. The result is reverberation effects that can be calculated in real time, and change dynamically each frame as the user moves around the room.</p>
+              </br>
+              <img src="Images/LetsGo.jpg" alt="Lets Go: A Go Step Sequencer and Melody Creator">
+              <h5>Lets Go: A Go Step Sequencer and Melody Creator</h5>
+              <p><b>Tech:</b>Webcam, OpenCV, Python, OSC, Max MSP, Logic Pro</p>
+              <p><b>YouTube:</b> <a href ="https://www.youtube.com/watch?v=4NljADQd_oc&feature=youtu.be">https://www.youtube.com/watch?v=4NljADQd_oc&feature=youtu.be</a></p>
+              <p>Let’s Go uses computer vision to track the positions of the black and white tokens in the popular board game Go. By representing a board state as a matrix, we can transform the Go board into a step sequencer and melody creator, allowing the two players to create dynamically changing music as the game progresses.
+Let’s Go uses computer vision to track the positions of the black and white tokens in the popular board game Go. By representing a board state as a matrix, we can transform the Go board into a step sequencer and melody creator, allowing the two players to create dynamically changing music as the game progresses. OpenCV was used to process a live stream of a Go board captured with an HD webcam. The current board state is then transformed into a position matrix using a blob detection algorithm.</p>
+              </br>
+              <img src="Images/RobOrchestra.jpg" alt="RobOrchestra">
+              <h5>RobOrchestra</h5>
+              <p><b>Tech:</b> Arduino, Hardware, Java, Max MSP, MIDI</p>
+              <p><b>Git:</b> <a href ="https://github.com/CMU-Robotics-Club/RobOrchestra">https://github.com/CMU-Robotics-Club/RobOrchestra</a></p>
+              <p>RobOrchestra is an ongoing project in the Carnegie Mellon Robotics Club that aims to explore the creative possibilities for robotic instruments. We design, build and program robots that read music from MIDI data in order to put on musical performances. Our goal is to create a full robotic orchestra that is able to play from arrangements from standard MIDI files, and is also able to "improvise" unique polyphonic music in real time based off of music generation algorithms developed by our team. Currently, our orchestra consists of XyloBot, BassBot, SnareBot and UkuleleBot, and has performed at several campus events at Carnegie Mellon including Spring Carnival and RoboClub Late Night. </p>
+              </br>
+              <img src="Images/VirtualTextures.jpg" alt="Senseg">
+              <h5>Can your Smartphone Touch you Back? Rendering Haptic Textures from Friction on Android OS</h5>
+              <p><b>Tech:</b> MySQL, Matlab, Java, Android</p>
+              <p><b>Git:</b> <a href ="https://github.com/Satrat/Virtual-Textures">https://github.com/Satrat/Virtual-Textures</a></p>
+              <p><b>Publication:</b><a href ="http://ieeexplore.ieee.org/document/7989893/">http://ieeexplore.ieee.org/document/7989893/</a></p>
+              <p>This research project, under the supervision of Dr. Roberta Klatzky, explored the possibilities of incorporating haptic feedback into smartphone and tablet applications. We worked with a device that utilizes haptic technology, the Senseg "Feelscreen" tablet, to investigate its use for virtual textures. The tablet gives the user haptic feedback by varying friction impulses depending on how the user's finger is moving. We first investigated human response to these virtual textures, and after seeing positive results designed a keyboard application that uses various texture gradients to allow the user to find their direction of movement and "swipe type" on the keyboard without having to look at the screen. Our research was presented at the Meeting of the Minds research symposium in the Spring of 2016 and published in the IEEE World Haptics Conference in 2017. </p>
+              </br>
+              <img src="Images/KinectTheremin.jpg" alt="Kinect Theremin">
+              <h5>The Kinect Theremin</h5>
+              <p><b>Tech:</b> Kinect, C++, Max MSP</p>
+              <p><b>Git:</b> <a href ="https://github.com/Satrat/Kinect-Theremin">https://github.com/Satrat/Kinect-Theremin</a></p>
+              <p>The Kinect Theremin is an application developed for the Microsoft Kinect that allows the user to create expressive music using their own body as an instrument. Based on the instrument patented by Leon Theremin in 1928, the Kinect Theremin produces a spooky, alien-like sound that is often found in science fiction and horror movies. The user can move their limbs around in order to manipulate the pitch, volume and timbre of this electronic instrument. The Kinect Theremin also responses to several different hand shapes that can be used to start and stop sound production.</p>
+              </br>
+              <h5>Resume Parser and Classifier</h5>
+              <p><b>Tech:</b> Python</p>
+              <p><b>Git:</b> <a href ="https://github.com/Satrat/Resume-Parser">https://github.com/Satrat/Resume-Parser</a></p>
+              <p>This hackathon project, developed at YHacks 2015, parses PDF resumes and sorts them by score in a Latex document with a summary of each participant for easy review of top candidates. Our algorithm parses a resume by splitting it into generic categories such as work experience, projects, leadership and activities, and assigning each candidate points based off of their performance in each category. This parser is unique, because it does more than simply give a general score for a candidate. It analyzes a resume to determine the best job category for the applicant, and then adjusts the applicants score based off of performance in parameters that are unique to each job category.</p>
+              </br>
+              <img src="Images/Improvisation.jpg" alt="Viola Performance">
+              <h5>Improvisation with Artificial Intelligence Accompaniment</h5>
+              <p><b>Tech:</b> Max MSP</p>
+              <p><b>Git:</b> <a href ="https://github.com/Satrat/AI-Improvisation">https://github.com/Satrat/AI-Improvisation</a></p>
+              <p>This Max MSP patch uses real time pitch detection to track an improvised solo through microphone input. The patch uses L-systems to algorithmically generates two harmony lines to accompany the soloist's performance. As the soloist varies between high, mid, and low range pitches, the "grammatical rules" of the L-systems change, allowing the soloist to loosely control the harmonic line by deliberately playing in certain pitch ranges. This artificial intelligence accompanist performed with a viola soloist at the Frank-Ratchye Studio for Creative Inquiry in April 2016.</p>
+              </br>
+	      <h5>Saraadkins.com</h5>
+              <p><b>Tech:</b> HTML, CSS, jQuery, PHP</p>
+              <p><b>Git:</b> <a href ="https://github.com/Satrat/Saradkins.xyz">https://github.com/Satrat/Saradkins.xyz</a></p>
+              <p>This website you are currently visiting was developed from scratch using HTML and CSS. All icons were created using Adobe Illustrator, and the playlist feature on my music page was developed using jQuery and jPlayer. This website was created to act as a portfolio to showcase all of my programming, audio engineering, sound design and music performance projects. It also serves as a long answer to a commonly received question "What on earth do you do with a double major in Computer Science and Music Technology?"</p>
+              </br>
+              <p style="text-align: center"><A HREF="#top">Back to top</a></p>
+            </div>
+      </div>
+  </body>
+</html>
