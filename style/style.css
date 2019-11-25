@@ -183,15 +183,7 @@
     padding-right: 15px;
     padding-bottom: 2px;
 }
-#codeContent img {
-    width: 230px;
-    height: 200px;
-    float: left;
-    padding-right: 15px;
-    padding-bottom: 2px;
-    padding-left: 30px;
-    padding-top: 30px;
-}
+
 .musicMenu {
     vertical-align: top;
     position: relative;
@@ -522,15 +514,7 @@ p {
     padding-right: 15px;
     padding-bottom: 2px;
 }
-#codeContent img {
-    width: 230px;
-    height: 200px;
-    float: left;
-    padding-right: 15px;
-    padding-bottom: 2px;
-    padding-left: 30px;
-    padding-top: 30px;
-}
+
 .musicMenu {
     vertical-align: top;
     position: relative;
@@ -814,3 +798,83 @@ transform: scale(1.05);
     margin-bottom: 10px;  
 }
 
+#codeContent h5 {
+    margin: 0px;
+    text-align: left;
+    color: #173e43;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+}
+
+#codeContent h4 {
+    margin: 0px;
+    text-align: left;
+    color: #173e43;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#codeContent p {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#codeContent img {
+    width: 340px;
+    height: 270px;
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#code_images {
+    width: 100%;
+    text-align: center;
+}
+
+#go_images img{
+    width: 220px;
+    height: 200px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#codeContent {
+    margin-left:4%;
+    margin-right:4%;
+    width: 92%;
+    text-align: center;
+}
+
+#go_mask img{
+    width: 70%;
+    height: auto;
+}
+
+#go_max img{
+    width:55%;
+    height:auto;
+}
+
+#reverb_ray img{
+    width: 40%;
+    height: auto;
+}
+
+#vt_app img {
+    width: 30%;
+    height:auto;
+}
+
+#color img {
+    width: 35%;
+    height: auto;
+}
+
+#color_pd img {
+    width: 50%;
+    height: auto;
+}
