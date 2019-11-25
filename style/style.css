@@ -791,6 +791,26 @@ transform: scale(1.05);
 }
 
 #portfolio-cards h5 {
+    font-size: 16px; 
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;  
+}
+
+#music-cards {
+    min-height: 50px;
+}
+
+#music-cards p { 
+    font-size: 12px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;  
+}
+
+#music-cards h5 {
     font-size: 16px;
     margin-right: 0px;
     margin-left: 0px;

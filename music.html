@@ -96,20 +96,24 @@
         cssSelectorAncestor: "#jp_container_electronic"
       }, [
         {
+          title: "Lime Stone",
+          mp3: "./Audio/Electronic/sadkins_sound_glitter.mp3"       
+        },
+        {
+          title: "Machine Cycle",
+          mp3: "./Audio/Electronic/Machine_Cycle.mp3"
+        },
+        {
+          title: "Music Box",
+          mp3: "./Audio/Electronic/sadkins_p7_comp.mp3"
+        },
+        {
           title: "Color Bursts",
           mp3: "./Audio/Electronic/Color_Bursts.mp3"       
         },
         {
           title: "Not a Chance in Hell",
           mp3: "./Audio/Electronic/DnD_Theme.mp3"
-        },
-        {
-          title: "Lore",
-          mp3: "./Audio/Electronic/LoreAmbience.mp3"
-        },
-        {
-          title: "Music Box",
-          mp3: "./Audio/Electronic/sadkins_p7_comp.mp3"
         }
       ], {
         swfPath: "./js",
@@ -127,6 +131,7 @@
   </head>
   <body>
             <div class = "centerContent">
+                <a name = "top"></a>
             <div class = "header">
                 <div class = "back"><a href="index.html"><img src="Images/back-arrow.gif" alt="Home" style="border-radius: 25px 0px 0px 0px"></a></div>
                 <div class = "icon"><img src="Images/music.gif" alt="Music icon"><h3>Music</h3></div>
@@ -146,21 +151,36 @@
             </div>
             </div>
             <div class = "content" id = "musicContent">
-              <a name = "top"></a>
-              <div class = "musicMenu">
-                <p><A HREF="#performance">CLASSICAL GUITAR</a></p>
+              <div class = "cards">
+                <a href=#performance>
+                <div class="card" id="music-cards">
+                  <img class="card-content" src="Images/guitar_performance.jpg" alt="Avatar" style="width:100%">
+                  <div class="cardContainer">
+                    <h5><b>Guitar Performance</b></h5>
+                  </div>
+                </div></a>
+                <a href=#electronic>
+                <div class="card" id="music-cards">
+                  <img class="card-content" src="Images/electronic_music.jpg" alt="Avatar" style="width:100%">
+                  <div class="cardContainer">
+                    <h5><b>Electronic & Generative</b></h5>
+                  </div>
+                </div>
+                </a>
+                <a href=#audioeng>
+                <div class="card" id="music-cards">
+                  <img class="card-content" src="Images/generative_music.jpg" alt="Avatar" style="width:100%">
+                  <div class="cardContainer">
+                    <h5><b>Audio Engineering</b></h5>
+                  </div>
+                </div>
+                </a>
               </div>
-              <div class = "musicMenu">
-                <p><A HREF="#audioeng">MIXING AND MASTERING</a></p>
-              </div>
-              <div class = "musicMenu">
-                <p><A HREF="#sounddes">ELECTRONIC MUSIC</a></p>
-              </div>
-              <a name = "performance"><h5>Classical Guitar</h5></a>
-	      <p>Sara recently graduated from the Carnegie Mellon University School of Music in Pittsburgh PA, where she studied classical guitar with professor James Ferla. During her time in Pittsburgh, Sara was featured as a concerto soloist with the CMU Classical Guitar Ensemble and performed with chamber group pairings ranging from renaissance vocalists, to string quartets, to banjo players. She performed as a freelancer throughout the city, playing in locations such as the Phipps Botanical Gardens, the Carnegie Library of Pittsburgh, Kresge Theater, and the UPMC Hillman Cancer Center. Prior to her time in Pittsburgh, Sara studied guitar at the Peabody Preparatory School in Baltimore MD, where she performed with the guitar orchestra and participated in a master class with Julian Gray.</p>
-<p>Now residing in Boston, Sara is excited to make her mark as a freelance musician in the area. With her unique background in performance, audio engineering and sound design, she is well equipped to provide a thoughtful and cohesive musical experience tailored to suit your event. From intimate wedding ceremonies to loud cocktail parties, Sara will work with you to ensure the music selection and sound system design create the perfect atmosphere for your guests. The classical guitar is a quiet instrument, so some sound reinforcement or amplification will be needed for most events. Sara is able to provide and set up her own amplification equipment, or work with an existing set up.</p> 
+              <a name = "performance"><h5>Guitar Performance</h5></a>
+	      <p>Sara graduated from the Carnegie Mellon University School of Music in Pittsburgh PA, where she studied classical guitar with professor James Ferla. During her time in Pittsburgh, Sara was featured as a concerto soloist with the CMU Classical Guitar Ensemble and performed with chamber group partners ranging from renaissance vocalists, to string quartets, to banjo players. She performed as a freelancer throughout the city, playing in locations such as the Phipps Botanical Gardens, the Carnegie Library of Pittsburgh, Kresge Theater, and the UPMC Hillman Cancer Center. Prior to her time in Pittsburgh, Sara studied guitar at the Peabody Preparatory School in Baltimore MD, where she performed with the guitar orchestra and participated in a master class with Julian Gray.</p>
+<p>Now residing in Boston, Sara performs as a freelance guitarist for wedding ceremonies, receptions and other events. She is also an active member of the Boston Classical Guitar Society.  With her unique background in performance, audio engineering and sound design, she is well equipped to provide a thoughtful and cohesive musical experience tailored to suit any event. From intimate wedding ceremonies to loud cocktail parties, Sara will set up a professional sound system and select music that will create the perfect atmosphere for the event at hand. A previous client praised Sara in a review stating "Sara's professionalism was top notch, her music selection was amazing and her artistic gift is beyond comparison, her music in the castle was amazing."</p> 
 
-<p>To book Sara as a musician for your next event, please request a quote on <a href="https://www.gigmasters.com/classical-guitar/sara-adkins">GigMasters</a> and she will get back to you within 24 hours. Sara can put together a program of music from her extensive <a href="./docs/Repertoire List.pdf">repertoire list</a> tailored to your event and musical preferences, and is also happy to take song requests. Below are some recordings of Sara playing her favorite pieces: 
+<p>To book Sara as a musician for your next event, please send an email to booking@saraadkins.com. You can also visit her profile on <a href="https://www.gigmasters.com/classical-guitar/sara-adkins">GigMasters</a> to request a quote. Sara can put together a program of music from her extensive <a href="./docs/Repertoire List.pdf">repertoire list</a> tailored to your event and musical preferences, and is also happy to take song requests. Below are some recordings of Sara playing her favorite pieces: 
 </p>
              </br>
               <div id="guitar_holder" align = "center">
@@ -208,8 +228,62 @@
               </div>
               </div>
               </br>
-              <a name = "audioeng"><h5>Mixing and Mastering</h5></a>
-              <p>During her time at Carnegie Mellon, Sara worked as a sound engineer in the Vladmir Recording Studio. She was responsible running recording sessions and mixing tracks for local Pittsburgh artists. Below are several samples of Sara's mixing and mastering work from a variety of genres. All tracks were edited using Pro Tools.</p>
+              <p style="text-align: center"><A HREF="#top">Back to top</a></p>
+
+              <a name = "electronic"><h5>Electronic & Generative Music</h5></a>
+              <p>Sara’s work lies at the intersection of music and technology, with a focus on designing generative music algorithms for live performances. Her work explores how the randomness and automation of an algorithm can be useful to a musician’s creative process as they improvise. She aims to create generative music frameworks that are intuitive for musicians to make music with.  Her algorithmic piece “Machine Cycle” was premiered last year by the Carnegie Mellon Exploded Ensemble. Her generative composition “Color Bursts”, created with Julian Koreniowsky, ran as sound installation in a butterfly garden for 4 months.</p>
+              <p>For electronic composition, generative or not, Sara’s weapons of choice are Max MSP, PureData and Logic.  Her work is inspired by classical music, fantasy soundtracks and of course, algorithms. Below are some selected tracks of Sara’s electronic composition projects. For the technical breakdown of her generative pieces, visit her <a href="http://saraadkins.com/portfolio.html">software portfolio page</a>.</p>
+              </br>
+              <div id="electronic_holder" align = "center">
+              <div id="jquery_jplayer_electronic" class="jp-jplayer"></div>
+              <div id="jp_container_electronic" class="jp-audio" role="application" aria-label="media player">
+                <div class="jp-type-playlist">
+                  <div class="jp-gui jp-interface">
+                    <div class="jp-controls">
+                      <button class="jp-previous" role="button" tabindex="0">previous</button>
+                      <button class="jp-play" role="button" tabindex="0">play</button>
+                      <button class="jp-next" role="button" tabindex="0">next</button>
+                      <button class="jp-stop" role="button" tabindex="0">stop</button>
+                    </div>
+                    <div class="jp-progress">
+                      <div class="jp-seek-bar" align = "left">
+                        <div class="jp-play-bar"></div>
+                      </div>
+                    </div>
+                    <div class="jp-volume-controls" align = "left">
+                      <button class="jp-mute" role="button" tabindex="0">mute</button>
+                      <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+                      <div class="jp-volume-bar">
+                        <div class="jp-volume-bar-value"></div>
+                      </div>
+                    </div>
+                    <div class="jp-time-holder">
+                      <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+                      <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+                    </div>
+                    <div class="jp-toggles">
+                      <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+                      <button class="jp-shuffle" role="button" tabindex="0">shuffle</button>
+                    </div>
+                  </div>
+                  <div class="details"><h1 class = "song_title2">Lime Stone</h1><p class = "description2">Electronic soundtrack to a walk through an underground limestone mine, composed in Logic.</p></div>
+                  <div class="jp-playlist" align = "left">
+                    <ul class = "audio">
+                      <li>&nbsp;</li>
+                    </ul>
+                  </div>
+                  <div class="jp-no-solution">
+                    <span>Update Required</span>
+                    To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+                  </div>
+                </div>
+              </div>
+              </div>
+              </br>
+              <p style="text-align: center"><A HREF="#top">Back to top</a></p>
+
+              <a name = "audioeng"><h5>Audio Engineering</h5></a>
+              <p>During her time at Carnegie Mellon, Sara worked as a sound engineer in the Vladmir Recording Studio. She was responsible for running recording sessions and mixing tracks for local Pittsburgh artists. Below are several samples of Sara's mixing and mastering work from a variety of genres. All tracks were edited using Pro Tools.</p>
               </br>
               <div id="eng_holder" align = "center">
               <div id="jquery_jplayer_audioEng" class="jp-jplayer"></div>
@@ -256,56 +330,6 @@
                 </div>
               </div>
               </div>
-              </br>
-              <a name = "sounddes"><h5>Electronic Music</h5></a>
-              <p>For electronic composition and sound design, Sara’s weapons of choice are Max MSP, PureData and Logic. Recently her generative composition “Color Bursts,” created with Julian Koreniowksy, ran on a Raspberry Pi for 6 months as a sound installation in the butterfly garden exhibit at Phipps Botanical Garden and Conservatory. Sara’s work is inspired by classical music, fantasy soundtracks, and algorithms. Below are some selected tracks of Sara’s electronic composition projects. More can be found scattered throughout her <a href="http://saraadkins.com/portfolio.html">software portfolio page</a>.</p>
-              </br>
-              <div id="electronic_holder" align = "center">
-              <div id="jquery_jplayer_electronic" class="jp-jplayer"></div>
-              <div id="jp_container_electronic" class="jp-audio" role="application" aria-label="media player">
-                <div class="jp-type-playlist">
-                  <div class="jp-gui jp-interface">
-                    <div class="jp-controls">
-                      <button class="jp-previous" role="button" tabindex="0">previous</button>
-                      <button class="jp-play" role="button" tabindex="0">play</button>
-                      <button class="jp-next" role="button" tabindex="0">next</button>
-                      <button class="jp-stop" role="button" tabindex="0">stop</button>
-                    </div>
-                    <div class="jp-progress">
-                      <div class="jp-seek-bar" align = "left">
-                        <div class="jp-play-bar"></div>
-                      </div>
-                    </div>
-                    <div class="jp-volume-controls" align = "left">
-                      <button class="jp-mute" role="button" tabindex="0">mute</button>
-                      <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
-                      <div class="jp-volume-bar">
-                        <div class="jp-volume-bar-value"></div>
-                      </div>
-                    </div>
-                    <div class="jp-time-holder">
-                      <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
-                      <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
-                    </div>
-                    <div class="jp-toggles">
-                      <button class="jp-repeat" role="button" tabindex="0">repeat</button>
-                      <button class="jp-shuffle" role="button" tabindex="0">shuffle</button>
-                    </div>
-                  </div>
-                  <div class="details"><h1 class = "song_title2">Color Bursts</h1><p class = "description2">Collaboration with Julian Koreniowsky. Generative composition created with PureData and Logic, inspired by the vibrant flowers in a Pittsburgh butterfly garden.</p></div>
-                  <div class="jp-playlist" align = "left">
-                    <ul class = "audio">
-                      <li>&nbsp;</li>
-                    </ul>
-                  </div>
-                  <div class="jp-no-solution">
-                    <span>Update Required</span>
-                    To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
-                  </div>
-                </div>
-              </div>
-              </div>
-
               </br>
               <p style="text-align: center"><A HREF="#top">Back to top</a></p>
               </div>

@@ -466,33 +466,40 @@
 				else {
 					this.select(index);
 					$(".details").show(100);
-					if(index == 0) {
+					if(index == 3) {
 						$(".song_title2").fadeOut(function() {
 						  $(this).text("Color Bursts").fadeIn();
 						});
 						$(".description2").fadeOut(function() {
 							$(this).text("Collaboration with Julian Koreniowsky. Generative composition created with PureData and Logic, inspired by the vibrant flowers in a Pittsburgh butterfly garden.").fadeIn();
 						});
-					} else if(index == 1) {
+					} else if(index == 0) {
+						$(".song_title2").fadeOut(function() {
+						  $(this).text("Lime Stone").fadeIn();
+						});
+						$(".description2").fadeOut(function() {
+							$(this).text("Electronic soundtrack to a walk through an underground limestone mine, composed in Logic.").fadeIn();
+						});
+					} else if(index == 4) {
 						$(".song_title2").fadeOut(function() {
 						  $(this).text("Not a Chance in Hell").fadeIn();
 						});
 						$(".description2").fadeOut(function() {
 							$(this).text("Short intro theme for an online Dungeons and Dragons campaign, composed in Logic.").fadeIn();
 						});
-					} else if(index == 2) {
-						$(".song_title2").fadeOut(function() {
-						  $(this).text("Lore").fadeIn();
-						});
-						$(".description2").fadeOut(function() {
-							$(this).text("Collaboration with Kai Ono. Background music for a fantasy RPG video game, orchestrated in Logic.").fadeIn();
-						});
-					} else if(index == 3) {	
+					} else if(index == 2) {	
 						$(".song_title2").fadeOut(function() {
 						  $(this).text("Music Box").fadeIn();
 						});
 						$(".description2").fadeOut(function() {
 							$(this).text("Granular synthesis composition portraying a rogue music box, created using Nyquist and Audacity.").fadeIn();
+						});
+					} else if(index == 1) {	
+						$(".song_title2").fadeOut(function() {
+						  $(this).text("Machine Cycle").fadeIn();
+						});
+						$(".description2").fadeOut(function() {
+							$(this).text("Algorithmic composition that utilizes Markov chains to create an improvizational loop between a performer and generative agent.").fadeIn();
 						});
 					}
 					$(this.cssSelector.jPlayer).jPlayer("play");
