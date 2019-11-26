@@ -422,7 +422,7 @@
 		play: function(index) {
 			index = (index < 0) ? this.original.length + index : index; // Negative index relates to end of array.
 			if(0 <= index && index < this.playlist.length) {
-				if(this.playlist.length == 5) {
+				if(this.playlist[index]["playlist"] == "audio_eng") {
 					this.select(index);
 					$(".details").show(100);
 					if(index == 0) {
@@ -463,7 +463,7 @@
 					}
 					$(this.cssSelector.jPlayer).jPlayer("play");
 				}
-				else {
+				else if (this.playlist[index]["playlist"] == "electronic"){
 					this.select(index);
 					$(".details").show(100);
 					if(index == 3) {
@@ -502,6 +502,11 @@
 							$(this).text("Algorithmic composition that utilizes Markov chains to create an improvizational loop between a performer and generative agent.").fadeIn();
 						});
 					}
+					$(this.cssSelector.jPlayer).jPlayer("play");
+				}
+				else if (this.playlist[index]["playlist"] == "guitar") {
+					this.select(index);
+					$(".details").show(100);
 					$(this.cssSelector.jPlayer).jPlayer("play");
 				}
 			} else if(index === undefined) {

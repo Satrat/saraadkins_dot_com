@@ -898,3 +898,27 @@ transform: scale(1.05);
     width: 50%;
     height: auto;
 }
+
+.group2:hover {
+    -webkit-transform: scale(1.05);
+    /* Safari and Chrome */
+    -moz-transform: scale(1.05);
+    /* Firefox */
+    -ms-transform: scale(1.05);
+    /* IE 9 */
+    -o-transform: scale(1.05);
+    /* Opera */
+    transform: scale(1.05);
+}
+
+.group2 {
+    -webkit-transition: all .5s ease;
+    /* Safari and Chrome */
+    -moz-transition: all .5s ease;
+    /* Firefox */
+    -o-transition: all .5s ease;
+    /* IE 9 */
+    -ms-transition: all .5s ease;
+    /* Opera */
+    transition: all .5s ease;
+}
