@@ -78,6 +78,7 @@ if($error == false) {
 <!-- include your own success html here -->
 <script type="text/javascript">
 window.location = "http://www.saraadkins.com/contact.html";
+alert("Thank you for your message!");
 </script> 
  
 <?php

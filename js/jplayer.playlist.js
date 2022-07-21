@@ -478,7 +478,7 @@
 						  $(this).text("Lime Stone").fadeIn();
 						});
 						$(".description2").fadeOut(function() {
-							$(this).text("Electronic soundtrack to a walk through an underground limestone mine, composed in Logic.").fadeIn();
+							$(this).text("Electronic soundtrack of a walk through an underground limestone mine, composed in Logic.").fadeIn();
 						});
 					} else if(index == 4) {
 						$(".song_title2").fadeOut(function() {
