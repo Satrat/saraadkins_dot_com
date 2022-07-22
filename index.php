@@ -33,23 +33,23 @@
         </div>
         <div id="mainMenu">
             <div id="m1" class=mItem>
-                <a href="about.php"><img src="Images/about.gif" alt="About Me icon"></a>
+                <a href="about"><img src="Images/about.gif" alt="About Me icon"></a>
                 <p>ABOUT</p>
             </div>
             <div id="m2" class=mItem>
-                <a href="portfolio.php"><img src="Images/portfolio.gif" alt="Code icon"></a>
+                <a href="portfolio"><img src="Images/portfolio.gif" alt="Code icon"></a>
                 <p>CODE</p>
             </div>
             <div id="m3" class=mItem>
-                <a href="resume.php"><img src="Images/resume.gif" alt="Resume icon"></a>
+                <a href="resume"><img src="Images/resume.gif" alt="Resume icon"></a>
                 <p>RESUME</p>
             </div>
             <div id="m4" class=mItem>
-                <a href="music.php"><img src="Images/music.gif" alt="Music icon"></a>
+                <a href="music"><img src="Images/music.gif" alt="Music icon"></a>
                 <p>MUSIC</p>
             </div>
             <div id="m5" class=mItem>
-                <a href="contact.php"><img src="Images/contact.gif" alt="Contact Me icon"></a>
+                <a href="contact"><img src="Images/contact.gif" alt="Contact Me icon"></a>
                 <p>CONTACT</p>
             </div>
         </div>

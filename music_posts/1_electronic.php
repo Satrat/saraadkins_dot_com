@@ -2,7 +2,7 @@
 
 include_once('./classes/music_post.php');
 
-$post = new Post();
+$post = new MusicPost();
 $post->title = 'Electronic & Generative';
 $post->name = 'electronic';
 $post->card = 'Images/electronic_music.jpg';

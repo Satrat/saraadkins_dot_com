@@ -1,2 +1,3 @@
 RewriteEngine On
 RewriteRule ^(.*)\.html$ $1.php [L,R]
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

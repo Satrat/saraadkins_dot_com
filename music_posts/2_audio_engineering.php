@@ -1,7 +1,7 @@
 <?php
 
 include_once('./classes/music_post.php');
-$post = new Post();
+$post = new MusicPost();
 $post->title = 'Audio Engineering';
 $post->name = 'audio_engineering';
 $post->card = 'Images/generative_music.jpg';

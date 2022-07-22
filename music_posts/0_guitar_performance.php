@@ -3,7 +3,7 @@
 include_once('./classes/music_post.php');
 include_once('./classes/song.php');
 
-$post = new Post();
+$post = new MusicPost();
 $post->title = 'Guitar Performance';
 $post->name = 'guitar';
 $post->card = 'Images/guitar_performance.jpg';
