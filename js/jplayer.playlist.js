@@ -415,6 +415,16 @@
 				this.current = index;
 				this._highlight(index);
 				$(this.cssSelector.jPlayer).jPlayer("setMedia", this.playlist[this.current]);
+				$(".details").show(100);
+				var playlist = this.playlist[index]["playlist"];
+				var song = this.playlist[index]["title"];
+				var name = song.replaceAll(" ", "");
+				$("#song_title_"+playlist).fadeOut(function() {
+					$(this).text(song).fadeIn();
+				})
+				$("#song_description_"+playlist).fadeOut(function() {
+					$(this).text($("#"+name+"_description").text()).fadeIn();
+				})
 			} else {
 				this.current = 0;
 			}
@@ -422,93 +432,8 @@
 		play: function(index) {
 			index = (index < 0) ? this.original.length + index : index; // Negative index relates to end of array.
 			if(0 <= index && index < this.playlist.length) {
-				if(this.playlist[index]["playlist"] == "audio_eng") {
-					this.select(index);
-					$(".details").show(100);
-					if(index == 0) {
-						$(".song_title").fadeOut(function() {
-						  $(this).text("Alpine").fadeIn();
-						});
-						$(".description").fadeOut(function() {
-							$(this).text("New age rock cello. Composed and performed by Simon Cummings.").fadeIn();
-						});
-					} else if(index == 1) {
-						$(".song_title").fadeOut(function() {
-						  $(this).text("Evergreen").fadeIn();
-						});
-						$(".description").fadeOut(function() {
-							$(this).text("New age rock cello. Composed and performed by Simon Cummings.").fadeIn();
-						});
-					} else if(index == 2) {
-						$(".song_title").fadeOut(function() {
-						  $(this).text("1952 Vincent").fadeIn();
-						});
-						$(".description").fadeOut(function() {
-							$(this).text("Indie acoustic. Composed by Richard Thompson.").fadeIn();
-						});
-					} else if(index == 3) {	
-						$(".song_title").fadeOut(function() {
-						  $(this).text("Parchman Farm").fadeIn();
-						});
-						$(".description").fadeOut(function() {
-							$(this).text("Blues guitar. Composed by Bukka White.").fadeIn();
-						});
-					} else if(index == 4) {	
-						$(".song_title").fadeOut(function() {
-						  $(this).text("Spumoni Bomba").fadeIn();
-						});
-						$(".description").fadeOut(function() {
-							$(this).text("Jazz Funk. Composed and performed by The Clock Reads.").fadeIn();
-						});
-					}
-					$(this.cssSelector.jPlayer).jPlayer("play");
-				}
-				else if (this.playlist[index]["playlist"] == "electronic"){
-					this.select(index);
-					$(".details").show(100);
-					if(index == 3) {
-						$(".song_title2").fadeOut(function() {
-						  $(this).text("Color Bursts").fadeIn();
-						});
-						$(".description2").fadeOut(function() {
-							$(this).text("Collaboration with Julian Koreniowsky. Generative composition created with PureData and Logic, inspired by the vibrant flowers in a Pittsburgh butterfly garden.").fadeIn();
-						});
-					} else if(index == 0) {
-						$(".song_title2").fadeOut(function() {
-						  $(this).text("Lime Stone").fadeIn();
-						});
-						$(".description2").fadeOut(function() {
-							$(this).text("Electronic soundtrack of a walk through an underground limestone mine, composed in Logic.").fadeIn();
-						});
-					} else if(index == 4) {
-						$(".song_title2").fadeOut(function() {
-						  $(this).text("Not a Chance in Hell").fadeIn();
-						});
-						$(".description2").fadeOut(function() {
-							$(this).text("Short intro theme for an online Dungeons and Dragons campaign, composed in Logic.").fadeIn();
-						});
-					} else if(index == 2) {	
-						$(".song_title2").fadeOut(function() {
-						  $(this).text("Music Box").fadeIn();
-						});
-						$(".description2").fadeOut(function() {
-							$(this).text("Granular synthesis composition portraying a rogue music box, created using Nyquist and Audacity.").fadeIn();
-						});
-					} else if(index == 1) {	
-						$(".song_title2").fadeOut(function() {
-						  $(this).text("Machine Cycle").fadeIn();
-						});
-						$(".description2").fadeOut(function() {
-							$(this).text("Algorithmic composition that utilizes Markov chains to create an improvizational loop between a performer and generative agent.").fadeIn();
-						});
-					}
-					$(this.cssSelector.jPlayer).jPlayer("play");
-				}
-				else if (this.playlist[index]["playlist"] == "guitar") {
-					this.select(index);
-					$(".details").show(100);
-					$(this.cssSelector.jPlayer).jPlayer("play");
-				}
+				this.select(index);
+				$(this.cssSelector.jPlayer).jPlayer("play");
 			} else if(index === undefined) {
 				$(this.cssSelector.jPlayer).jPlayer("play");
 			}

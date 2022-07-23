@@ -1,0 +1,16 @@
+<?php
+
+include_once('./classes/project_post.php');
+
+$post = new ProjectPost();
+$post->title = 'Project Title';
+$post->subtitle = 'A Snappy Subtitle';
+$post->name = 'post_name'; // unique, no spaces
+$post->card = '/Images/image.png'; // absolute
+$post->content = '
+
+A bunch of HTML
+
+';
+
+?>
