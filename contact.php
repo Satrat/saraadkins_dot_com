@@ -30,7 +30,7 @@
             <h5 style="text-align:center;"> Send me a message!</h5>:
             <br>
             <br>
-            <form name="contactform" method="post" action="./blocks/send_form_email.php">
+            <form name="contactform" method="post" action="/blocks/send_form_email.php">
                 <label for="name">Name</label>
                 <br>
                 <input type="text" name="name" placeholder="Your name..">

@@ -25,7 +25,7 @@ $post->content = '
 
 <p>To book Sara as a musician for your next event, please send an email to booking@saraadkins.com. You can also visit
     her profile on <a href="https://www.gigmasters.com/classical-guitar/sara-adkins" target="_blank">GigMasters</a> to request a quote.
-    Sara can put together a program of music from her extensive <a href="./docs/Repertoire List.pdf">repertoire list</a>
+    Sara can put together a program of music from her extensive <a href="/docs/Repertoire List.pdf">repertoire list</a>
     tailored to your event and musical preferences, and is also happy to take song requests. Below are some recordings
     of Sara playing her favorite pieces:
 </p>
