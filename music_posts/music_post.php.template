@@ -1,0 +1,31 @@
+<?php
+
+include_once('./classes/music_post.php');
+include_once('./classes/song.php');
+
+$post = new MusicPost();
+$post->title = 'Project Title';
+$post->name = 'post_name'; // unique, no spaces
+$post->card = '/Images/image.png'; // absolute
+$post->content = '
+
+A bunch of HTML
+
+';
+
+$post->playlist = Array();
+
+$post->playlist[] = new Song(
+    "Song 1 Title",
+    "Artist",
+    "Description",
+    "Audio/absolute/path/to/file.mp3"
+);
+$post->playlist[] = new Song(
+    "Song 2 Title",
+    "Artist",
+    "Description",
+    "Audio/absolute/path/to/file.mp3"
+);
+
+?>
