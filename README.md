@@ -39,3 +39,28 @@ $post->playlist[] = new Song(
     "Audio/absolute/path/to/file.mp3"
 );
 ```
+
+## Offline Development
+Because the website is written in PHP, the files cannot just be viewed in a browser like HTML files. You will need to set up a server to host the pages locally. A LAMP stack will work (although the M is not needed here). The easiest cross-platform way to set up for offline development is [XAMPP](https://www.apachefriends.org/). in `httpd.conf` make sure that all instances of `AllowOverride` are set to `All`. Either copy the project files into `xampp/htdocs`, or use a symlink. Either way, the path to `index.php` should be `xampp/htdocs/index.php`.
+
+## Deployment
+Set up a [LAMP Stack](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-22-04) (though MySQL is not needed). There are no `.html` files in the site, but it's still best practice to make sure that `.php` files are prioritized. From the DigitalOcean article linked above:
+
+```
+sudo nano /etc/apache2/mods-enabled/dir.conf
+```
+
+```
+<IfModule mod_dir.c>
+        DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
+</IfModule>
+```
+
+```
+sudo systemctl reload apache2
+```
+
+Also make sure that `mod_rewrite` is enabled in your Apache server:
+```
+sudo a2enmod rewrite
+```
