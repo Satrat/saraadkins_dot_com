@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154149775-1"></script>
+    
+    <?php include_once('./blocks/google_analytics.php'); ?>
+
     <script>
         window.dataLayer = window.dataLayer || [];
 

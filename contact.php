@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <?php include_once('./blocks/google_analytics.php'); ?>
     <title>Sara Adkins-Contact Me</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/style/style.css">

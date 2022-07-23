@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <?php include_once('./blocks/google_analytics.php'); ?>
     <title>Sara Adkins-Music</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type='text/css'>
