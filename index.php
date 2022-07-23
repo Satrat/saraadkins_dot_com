@@ -3,19 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    
+
     <?php include_once('./blocks/google_analytics.php'); ?>
-
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-154149775-1');
-    </script>
     <title>Sara Adkins - Musician, Sound Designer, Software Engineer</title>
     <meta name="Description"
         CONTENT="Sara Adkins is a music tecnologist, classical guitarist and software developer residing in Boston, MA. By day she is a software engineer at Bose Corporation, and by night she freelances as a classical guitarist and makes weird sounds with her laptop.">

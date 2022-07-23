@@ -98,7 +98,6 @@
                     echo('</br><p style="text-align: center"><A HREF="#top">Back to top</a></p>');
                 }
             ?>
-
         </div>
     </div>
 </body>

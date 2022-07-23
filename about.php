@@ -58,8 +58,8 @@
                 Dragons and thrift shopping. Her favorite TV show is Avatar the Last Airbender, her favorite podcast is
                 The Adventure Zone, her favorite band is Jukebox the Ghost, and her favorite classical guitarist is Ana
                 Vidovic.</p>
-            <div>
-            </div>
+        </div>
+    </div>
 </body>
 
 </html>
