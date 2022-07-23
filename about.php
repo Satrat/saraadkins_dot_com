@@ -6,15 +6,15 @@
     <title>Sara Adkins-About Me</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type='text/css'>
-    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="/style/style.css">
 </head>
 
 <body>
     <div class="centerContent">
         <div class="header">
-            <div class="back"><a href="index.php"><img src="Images/back-arrow.gif" alt="Home"
+            <div class="back"><a href="/"><img src="/Images/back-arrow.gif" alt="Home"
                         style="border-radius: 25px 0px 0px 0px"></a></div>
-            <div class="icon"><img src="Images/about.gif" lign="left" alt="About Me icon">
+            <div class="icon"><img src="/Images/about.gif" lign="left" alt="About Me icon">
                 <h3>About Me</h3>
             </div>
         </div>
@@ -23,7 +23,7 @@
 
         <div class="content" id="aboutContent">
             <h4>Hello World, I'm Sara.</h4>
-            <p><img src="Images/CFA_headshot.jpg" alt="About Me Photo">Sara Adkins is a music technologist, guitarist
+            <p><img src="/Images/CFA_headshot.jpg" alt="About Me Photo">Sara Adkins is a music technologist, guitarist
                 and software engineer passionate about promoting the use of machine learning and AI in the creative
                 arts. She is a Fulbright grant recipient currently pursuing her Master of Science in Sound and Music
                 Computing at Queen Mary University of London. Prior to moving to London she spent three years in Boston,

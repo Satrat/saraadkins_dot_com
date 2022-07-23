@@ -6,7 +6,7 @@ include_once('./classes/song.php');
 $post = new MusicPost();
 $post->title = 'Guitar Performance';
 $post->name = 'guitar';
-$post->card = 'Images/guitar_performance.jpg';
+$post->card = '/Images/guitar_performance.jpg';
 $post->content = '
 <p>Sara graduated from the Carnegie Mellon University School of Music in Pittsburgh PA, where she studied classical
     guitar with professor James Ferla. During her time in Pittsburgh, Sara was featured as a concerto soloist with the
@@ -24,7 +24,7 @@ $post->content = '
     her artistic gift is beyond comparison, her music in the castle was amazing."</p>
 
 <p>To book Sara as a musician for your next event, please send an email to booking@saraadkins.com. You can also visit
-    her profile on <a href="https://www.gigmasters.com/classical-guitar/sara-adkins">GigMasters</a> to request a quote.
+    her profile on <a href="https://www.gigmasters.com/classical-guitar/sara-adkins" target="_blank">GigMasters</a> to request a quote.
     Sara can put together a program of music from her extensive <a href="./docs/Repertoire List.pdf">repertoire list</a>
     tailored to your event and musical preferences, and is also happy to take song requests. Below are some recordings
     of Sara playing her favorite pieces:
@@ -37,31 +37,31 @@ $post->playlist[] = new Song(
     "Un Dia de Noviembre",
     "Leo Brouwer",
     "",
-    "./Audio/Guitar/Un Dia De Novembre.mp3"
+    "/Audio/Guitar/Un Dia De Novembre.mp3"
 );
 $post->playlist[] = new Song(
     "Prelude No. 1",
     "Heitor Villa-Lobos",
     "",
-    "./Audio/Guitar/Prelude No. 1.mp3"
+    "/Audio/Guitar/Prelude No. 1.mp3"
 );
 $post->playlist[] = new Song(
     "Preludio Rockero",
     "Maximo Diego Pujol",
     "",
-    "./Audio/Guitar/Preludio Rockero.mp3"
+    "/Audio/Guitar/Preludio Rockero.mp3"
 );
 $post->playlist[] = new Song(
     "Cello Suite No. 1: Prelude",
     "Johann Sebastian Bach",
     "",
-    "./Audio/Guitar/Prelude.mp3"
+    "/Audio/Guitar/Prelude.mp3"
 );
 $post->playlist[] = new Song(
     "Cello Suite No. 1: Sarabande",
     "Johann Sebastian Bach",
     "",
-    "./Audio/Guitar/Sarabande.mp3"
+    "/Audio/Guitar/Sarabande.mp3"
 );
 
 

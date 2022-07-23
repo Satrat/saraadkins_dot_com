@@ -6,14 +6,14 @@
     <title>Sara Adkins-Code</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type='text/css'>
-    <link rel="stylesheet" type="text/css" href="style/style.css">
-    <link rel="stylesheet" href="style/colorbox.css">
-    <link rel="stylesheet" type="text/css" href="./skin/blue.monday/css/jplayer.blue.monday.css">
-    <script src="./js/jquery-3.1.1.min.js"></script>
-    <script src="./js/jquery.jplayer.min.js"></script>
-    <script src="./js/jquery.jplayer.inspector.min.js"></script>
-    <script src="./js/jplayer.playlist.js"></script>
-    <script src="./js/jquery.colorbox-min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/style/style.css">
+    <link rel="stylesheet" href="/style/colorbox.css">
+    <link rel="stylesheet" type="text/css" href="/skin/blue.monday/css/jplayer.blue.monday.css">
+    <script src="/js/jquery-3.1.1.min.js"></script>
+    <script src="/js/jquery.jplayer.min.js"></script>
+    <script src="/js/jquery.jplayer.inspector.min.js"></script>
+    <script src="/js/jplayer.playlist.js"></script>
+    <script src="/js/jquery.colorbox-min.js"></script>
     <?php
         $files = glob("project_posts/*.php");
         $posts = array();
@@ -99,9 +99,9 @@
     <div class="centerContent">
         <a name="top"></a>
         <div class="header">
-            <div class="back"><a href="index.php"><img src="Images/back-arrow.gif" alt="Home"
+            <div class="back"><a href="/"><img src="/Images/back-arrow.gif" alt="Home"
                         style="border-radius: 25px 0px 0px 0px"></a></div>
-            <div class="icon"><img src="Images/portfolio.gif" alt="Code icon">
+            <div class="icon"><img src="/Images/portfolio.gif" alt="Code icon">
                 <h3>Code</h3>
             </div>
         </div>

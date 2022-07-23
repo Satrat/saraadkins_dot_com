@@ -6,10 +6,10 @@ $post = new ProjectPost();
 $post->title = 'Dynamic Reverb Simulation in AR';
 $post->subtitle = 'Efficiently simulate enviroment specific sound propogation for Microsoft HoloLens';
 $post->name = 'reverb';
-$post->card = 'Images/hololens_tile.jpg';
+$post->card = '/Images/hololens_tile.jpg';
 $post->content = '
 
-<p><b>GitHub Link: </b><a href="https://github.com/Satrat/AR-Reverb">AR-Reverb</a></p>
+<p><b>GitHub Link: </b><a href="https://github.com/Satrat/AR-Reverb" target="_blank">AR-Reverb</a></p>
 <p>This HoloLens application simulates sound propogation in augmented reality in order to create realistic
     echo effects that take into acount the topology of the AR environment during reverb calculations. The
     size and shape of a room, as well as the presence of obstacles, can significantly influence sound, and
@@ -27,7 +27,7 @@ $post->content = '
     originating from the source and calculate where they collide with the walls. On every collision, we
     spawn a new sound ray reflecting off the object it collided with and dampen the associated volume. We
     allow this to continue up to a maximum recursion depth of 30 collisions.</p>
-<div id="reverb_ray"><img src="Images/reverb_soundfile.jpg"></div>
+<div id="reverb_ray"><img src="/Images/reverb_soundfile.jpg"></div>
 <p>Whenever a ray crosses through a Quadrant, we add it to the Quadrant\'s list of active rays. On every
     frame, we check what Quadrant the user\'s position is in and loop through its active rays to compute
     which rays come close enough to the user to be heard, eliminating the majority of the rays from the
@@ -35,7 +35,7 @@ $post->content = '
     parallelized apparoach, we were able to raytrace a sound in 3ms, less than half the latency of our
     baseline sequential implementation that took 8ms. For more details on our algorithm and latency
     measurements, check out the project <a
-        href="https://github.com/Satrat/AR-Reverb/blob/master/README.md">README on GitHub.</a></p>
+        href="https://github.com/Satrat/AR-Reverb/blob/master/README.md" target="_blank">README on GitHub.</a></p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TppSbkVxA1w" frameborder="0"
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen></iframe>

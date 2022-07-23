@@ -6,12 +6,12 @@ $post = new ProjectPost();
 $post->title = 'Creating With The Machine';
 $post->subtitle = 'Series of interactive algorithmic compositions for human and machine musicians';
 $post->name = 'creating_with_the_machine';
-$post->card = 'Images/capstone_tile.jpg';
+$post->card = '/Images/capstone_tile.jpg';
 $post->content = '
 
-<p><b>GitHub Links:</b> <a href="https://github.com/Satrat/machine-cycle">machine-cycle</a>, <a
-        href="https://github.com/Satrat/rnn-on-bach">rnn-on-bach</a>, <a
-        href="https://github.com/Satrat/breathe">breathe</a></p>
+<p><b>GitHub Links:</b> <a href="https://github.com/Satrat/machine-cycle" target="_blank">machine-cycle</a>, <a
+        href="https://github.com/Satrat/rnn-on-bach" target="_blank">rnn-on-bach</a>, <a
+        href="https://github.com/Satrat/breathe" target="_blank">breathe</a></p>
 <p> "Creating with the Machine" is a set of compositions that combine algorithmic and traditional methods of
     music composition into live performances to explore how interactive generative algorithms can influence
     creativity in musical improvisation, and create a compelling listening experience for the audience. In
@@ -19,7 +19,7 @@ $post->content = '
     algorithm, influencing the music that is generated. As the algorithm is influenced by the performer, the
     performer is also musically influenced by the output of the algorithm in a real time closed loop.
     This project was awarded the Henry Armero Memorial Award, an award to honor the memory of <a
-        href="http://henryarmero.com/">Henry Armero</a>, at the Meeting of the Minds research symposium.
+        href="http://henryarmero.com/" target="_blank">Henry Armero</a>, at the Meeting of the Minds research symposium.
     Sara also presented Creating with the Machine as a talk on algorithmic composition techniques at the
     2019 Hackaday Superconference in Los Angeles.
     A recording of Sara\'s Supercon talk is included below.</p>
@@ -106,7 +106,7 @@ $("#jquery_jplayer_cycle").jPlayer({
     ready: function () {
         $(this).jPlayer("setMedia", {
             title: "Machine Cycle",
-            mp3: "./Audio/Electronic/Machine_Cycle.mp3"
+            mp3: "/Audio/Electronic/Machine_Cycle.mp3"
         });
     },
     cssSelectorAncestor: "#jp_container_cycle",

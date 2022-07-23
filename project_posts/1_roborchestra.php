@@ -6,17 +6,17 @@ $post = new ProjectPost();
 $post->title = 'RobOrchestra';
 $post->subtitle = 'MIDI controllable robotic orchestra with an interface for generative music';
 $post->name = 'roborchestra';
-$post->card = 'Images/roborchestra_tile2.jpg';
+$post->card = '/Images/roborchestra_tile2.jpg';
 $post->content = '
 
-<p><b>GitHub Link: </b><a href="https://github.com/CMU-Robotics-Club/RobOrchestra">RobOrchestra</a></p>
+<p><b>GitHub Link: </b><a href="https://github.com/CMU-Robotics-Club/RobOrchestra" target="_blank">RobOrchestra</a></p>
 <p>RobOrchestra is an ongoing project in the Carnegie Mellon Robotics Club that aims to explore the creative
     possibilities for robotic instruments. The RobOrchestra team designs, builds and programs robots that
     read music from MIDI data in order to put on musical performances. The orchestra, consisting of XyloBot,
     TomBot, SnareBot and UkuleleBot, has performed at several events across campus including Spring
     Carnival, Philharmonic Preview Parties, Computer Science Day, and the CMU 50th Anniversary Showcase.</p>
 <div class="code_images">
-    <img src="Images/roborchestra_bxa.jpg"><img src="Images/roborchestra_pp.jpg">
+    <img src="/Images/roborchestra_bxa.jpg"><img src="/Images/roborchestra_pp.jpg">
 </div>
 <p>Sara led the RobOrchestra project from 2015-2018, steering the project toward enabling the orchestra to
     "improvise" unique polyphonic music in real time based off of music generation algorithms, rather than
@@ -32,7 +32,7 @@ $post->content = '
     musical background to use the orchestra as a tool to create their own music. Through the GUI, users
     could control various parameters of the algorithm and test out different keys and modes. Control sliders
     included tempo, how densely each instrument played, and how often scale tones were played.</p>
-<img src="Images/roborchestra_interface.jpg"><img src="Images/roborchestra_xylobot.jpg">
+<img src="/Images/roborchestra_interface.jpg"><img src="/Images/roborchestra_xylobot.jpg">
 <p>In addition to the generative music efforts, the team also focused on developing a new robot instrument
     named UkuleleBot. This robot was intended to be a rhythm section for the orchestra, strumming chords
     rather than playing individual notes. Chords are controlled by a fingering plate that sits above the

@@ -6,23 +6,23 @@ $post = new ProjectPost();
 $post->title = 'Let\'s Go';
 $post->subtitle = 'Algorithmic step sequencer and melody generator based on a live game of Go';
 $post->name = 'letsgo';
-$post->card = 'Images/letsgo_tile.jpg';
+$post->card = '/Images/letsgo_tile.jpg';
 $post->content = '
 
-<p><b>GitHub Link: </b><a href="https://github.com/Satrat/lets-go">lets-go</a></p>
+<p><b>GitHub Link: </b><a href="https://github.com/Satrat/lets-go" target="_blank">lets-go</a></p>
 <p>Let\'s Go uses computer vision to track the positions of the black and white tokens in the popular board
     game Go. By representing a board state as a matrix, we can transform the Go board into a step sequencer
     and melody creator, allowing the two players to create music together that builds as the game
     progresses.</p>
 <div id="go_images">
-    <img src="Images/letsgo_board.jpg"><img src="Images/letsgo_black.jpg"><img
-        src="Images/letsgo_white.jpg">
+    <img src="/Images/letsgo_board.jpg"><img src="/Images/letsgo_black.jpg"><img
+        src="/Images/letsgo_white.jpg">
 </div>
 <p>OpenCV was used to process a live video stream of the Go board captured with an HD webcam. The algorithm
     converts the picture to black and white to isolate the white go pieces, then inverts the frame to
     isolate the black. </p>
 <div id="go_mask">
-    <img src="Images/letsgo_mask.jpg">
+    <img src="/Images/letsgo_mask.jpg">
 </div>
 <p>We then use OpenCV\'s blob detection algorithm to find the center of each game piece on the board.
     Assuming the game board does not move, we can interpolate the location of each intersection on the board

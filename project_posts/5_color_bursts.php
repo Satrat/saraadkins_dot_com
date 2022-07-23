@@ -6,16 +6,16 @@ $post = new ProjectPost();
 $post->title = 'Color Bursts';
 $post->subtitle = 'Generative sound installation in a botanical garden';
 $post->name = 'color_bursts';
-$post->card = 'Images/color_tile.jpg';
+$post->card = '/Images/color_tile.jpg';
 $post->content = '
 
-<p><b>GitHub Link: </b><a href="https://github.com/Satrat/color-bursts">color-bursts</a></p>
+<p><b>GitHub Link: </b><a href="https://github.com/Satrat/color-bursts" target="_blank">color-bursts</a></p>
 <p>Color Bursts is a generative composition created by Sara Adkins and Julian Koreniowsky, inspired by the
     vibrant flowers scattered throughout a butterfly garden in Pittsburgh. The piece is made up of sample
     banks of percussive figures and melodic marimba phrases that randomly loop. Short synthesizer bloops
     flutter above the main loops, playing sparsely on randomly selected sub beat while an evolving drone
     sounds in the background. Samples for the piece were created using Logic Pro X.</p>
-<div id="color"><img src="Images/color_bursts.jpg"><img src="Images/color_green.jpg"></div>
+<div id="color"><img src="/Images/color_bursts.jpg"><img src="/Images/color_green.jpg"></div>
 <p>Color Bursts ran as a sound installation in the Phipps Botanical Garden for four months in the summer of
     2017. The piece runs as a Pure Data patch, which handles the scheduling and looping of the various
     voices. The patch runs on a Raspberry Pi, which launches the patch on startup and runs it indefinitely.
@@ -69,7 +69,7 @@ $("#jquery_jplayer_color").jPlayer({
     ready: function () {
         $(this).jPlayer("setMedia", {
             title: "Color Bursts",
-            mp3: "./Audio/Electronic/Color_Bursts.mp3"
+            mp3: "/Audio/Electronic/Color_Bursts.mp3"
         });
     },
     cssSelectorAncestor: "#jp_container_color",

@@ -5,7 +5,7 @@ include_once('./classes/music_post.php');
 $post = new MusicPost();
 $post->title = 'Electronic & Generative';
 $post->name = 'electronic';
-$post->card = 'Images/electronic_music.jpg';
+$post->card = '/Images/electronic_music.jpg';
 $post->content = '
 <p>Sara\'s work lies at the intersection of music and technology, with a focus on designing generative music
 algorithms for live performances. Her work explores how the randomness and automation of an algorithm can be useful
@@ -25,31 +25,31 @@ $post->playlist[] = new Song(
   "Lime Stone",
   "",
   "Electronic soundtrack of a walk through an underground limestone mine, composed in Logic.",
-  "./Audio/Electronic/sadkins_sound_glitter.mp3" 
+  "/Audio/Electronic/sadkins_sound_glitter.mp3" 
 );
 $post->playlist[] = new Song(
   "Machine Cycle",
   "",
   "Algorithmic composition that utilizes Markov chains to create an improvizational loop between a performer and generative agent.",
-  "./Audio/Electronic/Machine_Cycle.mp3" 
+  "/Audio/Electronic/Machine_Cycle.mp3" 
 );
 $post->playlist[] = new Song(
   "Music Box",
   "",
   "Granular synthesis composition portraying a rogue music box, created using Nyquist and Audacity.",
-  "./Audio/Electronic/sadkins_p7_comp.mp3" 
+  "/Audio/Electronic/sadkins_p7_comp.mp3" 
 );
 $post->playlist[] = new Song(
   "Color Bursts",
   "",
   "Collaboration with Julian Koreniowsky. Generative composition created with PureData and Logic, inspired by the vibrant flowers in a Pittsburgh butterfly garden.",
-  "./Audio/Electronic/Color_Bursts.mp3" 
+  "/Audio/Electronic/Color_Bursts.mp3" 
 );
 $post->playlist[] = new Song(
   "Not a Chance in Hell",
   "",
   "Short intro theme for an online Dungeons and Dragons campaign, composed in Logic.",
-  "./Audio/Electronic/DnD_Theme.mp3"
+  "/Audio/Electronic/DnD_Theme.mp3"
 );
 
 ?>

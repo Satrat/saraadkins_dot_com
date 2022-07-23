@@ -6,10 +6,10 @@ $post = new ProjectPost();
 $post->title = 'Configurable MIDI Pedal';
 $post->subtitle = 'Stompbox guitar pedal with configurable MIDI over USB behavior';
 $post->name = 'footpedal';
-$post->card = 'Images/foot_pedal3.jpg';
+$post->card = '/Images/foot_pedal3.jpg';
 $post->content = '
 
-<p><b>GitHub Link: </b><a href="https://github.com/Satrat/midi-pedal">midi-pedal</a></p>
+<p><b>GitHub Link: </b><a href="https://github.com/Satrat/midi-pedal" target="_blank">midi-pedal</a></p>
 <p>This USB MIDI Stompbox is simple to build, and comes with a Python GUI for configuring the MIDI output of
     each switch. Its perfect for controlling
     guitar effects in your favorite DAW, or custom patches in Max/PureData. From the configuration software
@@ -18,7 +18,7 @@ $post->content = '
     switch to "Press," "Press and Release," or Cycle
     mode. In cycle mode, you can loop through different MIDI messages on repeated presses. </p>
 <div id="code_images">
-    <img src="Images/foot_pedal4.jpg"><img src="Images/foot_pedal5.jpg">
+    <img src="/Images/foot_pedal4.jpg"><img src="/Images/foot_pedal5.jpg">
 </div>
 <p> The firmware runs on a Teensy4.2 microcontroller, which sends MIDI messages over USB and controls the
     indicator LEDS. The firmware uses the

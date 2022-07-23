@@ -5,15 +5,15 @@
     <meta charset="utf-8">
     <title>Sara Adkins-Contact Me</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="/style/style.css">
 </head>
 
 <body>
     <div class="centerContent">
         <div class="header">
-            <div class="back"><a href="index.php"><img src="Images/back-arrow.gif" alt="Home"
+            <div class="back"><a href="/"><img src="/Images/back-arrow.gif" alt="Home"
                         style="border-radius: 25px 0px 0px 0px"></a></div>
-            <div class="icon"><img src="Images/contact.gif" alt="Contact Me icon">
+            <div class="icon"><img src="/Images/contact.gif" alt="Contact Me icon">
                 <h3>Contact Me</h3>
             </div>
         </div>
@@ -29,7 +29,7 @@
             <h5 style="text-align:center;"> Send me a message!</h5>:
             <br>
             <br>
-            <form name="contactform" method="post" action="./php/send_form_email.php">
+            <form name="contactform" method="post" action="./blocks/send_form_email.php">
                 <label for="name">Name</label>
                 <br>
                 <input type="text" name="name" placeholder="Your name..">
