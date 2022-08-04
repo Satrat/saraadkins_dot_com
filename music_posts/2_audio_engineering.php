@@ -1,6 +1,8 @@
 <?php
 
 include_once('./classes/music_post.php');
+include_once('./classes/song.php');
+
 $post = new MusicPost();
 $post->title = 'Audio Engineering';
 $post->name = 'audio_engineering';
