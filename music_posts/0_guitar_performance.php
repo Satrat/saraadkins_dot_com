@@ -8,26 +8,25 @@ $post->title = 'Guitar Performance';
 $post->name = 'guitar';
 $post->card = '/Images/guitar_performance.jpg';
 $post->content = '
-<p>Sara graduated from the Carnegie Mellon University School of Music in Pittsburgh PA, where she studied classical
-    guitar with professor James Ferla. During her time in Pittsburgh, Sara was featured as a concerto soloist with the
+<p>I graduated from the Carnegie Mellon University School of Music in Pittsburgh PA, where I studied classical
+    guitar with professor James Ferla. During my time in Pittsburgh, I was featured as a concerto soloist with the
     CMU Classical Guitar Ensemble and performed with chamber group partners ranging from renaissance vocalists, to
-    string quartets, to banjo players. She performed as a freelancer throughout the city, playing in locations such as
+    string quartets, to banjo players. I performed as a freelancer throughout the city, playing in locations such as
     the Phipps Botanical Gardens, the Carnegie Library of Pittsburgh, Kresge Theater, and the UPMC Hillman Cancer
-    Center. Prior to her time in Pittsburgh, Sara studied guitar at the Peabody Preparatory School in Baltimore MD,
-    where she performed with the guitar orchestra and participated in a master class with Julian Gray.</p>
-<p>Now residing in Boston, Sara performs as a freelance guitarist for wedding ceremonies, receptions and other events.
-    She is also an active member of the Boston Classical Guitar Society. With her unique background in performance,
-    audio engineering and sound design, she is well equipped to provide a thoughtful and cohesive musical experience
-    tailored to suit any event. From intimate wedding ceremonies to loud cocktail parties, Sara will set up a
-    professional sound system and select music that will create the perfect atmosphere for the event at hand. A previous
-    client praised Sara in a review stating "Sara\'s professionalism was top notch, her music selection was amazing and
+    Center. Prior to my time in Pittsburgh, I studied guitar at the Peabody Preparatory School in Baltimore MD,
+    where I performed with the guitar orchestra and participated in a master class with Julian Gray.</p>
+<p>Now residing in Boston, I perform as a freelance guitarist for wedding ceremonies, receptions and other events.
+    With my unique background in performance, audio engineering and sound design, I am well equipped to provide a 
+    thoughtful and cohesive musical experience tailored to suit any event. From intimate wedding ceremonies to loud cocktail parties,
+    I can set up a professional sound system and select music that will create the perfect atmosphere for the event at hand. A previous
+    client praised my work in a review stating "Sara\'s professionalism was top notch, her music selection was amazing and
     her artistic gift is beyond comparison, her music in the castle was amazing."</p>
 
-<p>To book Sara as a musician for your next event, please send an email to booking@saraadkins.com. You can also visit
-    her profile on <a href="https://www.gigmasters.com/classical-guitar/sara-adkins" target="_blank">GigMasters</a> to request a quote.
-    Sara can put together a program of music from her extensive <a href="/docs/Repertoire List.pdf">repertoire list</a>
-    tailored to your event and musical preferences, and is also happy to take song requests. Below are some recordings
-    of Sara playing her favorite pieces:
+<p>To book me as a musician for your next event, please send an email to booking@saraadkins.com. You can also visit
+    my profile on <a href="https://www.gigmasters.com/classical-guitar/sara-adkins" target="_blank">GigMasters</a> to request a quote.
+    I can put together a program of music from my extensive <a href="/docs/Repertoire List.pdf">repertoire list</a>
+    tailored to your event and musical preferences, and am also happy to take song requests. Below are some recordings
+    of me playing my favorite classical pieces:
 </p>
 ';
 

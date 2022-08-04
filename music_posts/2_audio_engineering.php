@@ -6,9 +6,9 @@ $post->title = 'Audio Engineering';
 $post->name = 'audio_engineering';
 $post->card = '/Images/generative_music.jpg';
 $post->content = '
-<p>During her time at Carnegie Mellon, Sara worked as a sound engineer in the Vladmir Recording Studio. She was
+<p>During my undergraduate degree at Carnegie Mellon, I worked as a sound engineer in the Vladmir Recording Studio. I was
 responsible for running recording sessions and mixing tracks for local Pittsburgh artists. Below are several samples
-of Sara\'s mixing and mastering work from a variety of genres. All tracks were edited using Pro Tools.</p>
+of my mixing and mastering work from a variety of genres. All tracks were recorded and edited using Pro Tools.</p>
 ';
 
 $post->playlist = Array();

@@ -47,7 +47,7 @@
             <img src="/Images/arrow2.gif" alt="bottom arrow icon">
         </div>
         <div id="description">
-            <h2>Musician, Sound Designer, Software Engineer.</h2>
+            <h2>Music Technologist, Engineer, Guitarist</h2>
         </div>
     </div>
 </body>
