@@ -23,7 +23,7 @@ $post->content = '
     grabs more spatial mapping data, we asynchronously request the new information regarding the mesh and
     send it to the relevant Quadrant. That way, we keep most Quadrants free and ready to do work as they are
     needed. </p>
-<p>When a new sound source is added to the environment, we use Unity\'s Physics.Raycast to spawn 75 rays
+<p>When a new sound source is added to the environment, we use Unity\'s Physics. Raycast to spawn 75 rays
     originating from the source and calculate where they collide with the walls. On every collision, we
     spawn a new sound ray reflecting off the object it collided with and dampen the associated volume. We
     allow this to continue up to a maximum recursion depth of 30 collisions.</p>
