@@ -7,7 +7,7 @@ $post = new MusicPost();
 $post->title = 'Project Title';
 $post->name = 'post_name'; // unique, no spaces
 $post->card = '/Images/image.png'; // absolute
-$post->content = '
+$post->content1 = '
 
 A bunch of HTML
 
@@ -27,5 +27,8 @@ $post->playlist[] = new Song(
     "Description",
     "Audio/absolute/path/to/file.mp3"
 );
+
+
+$post->content2 = ''
 
 ?>

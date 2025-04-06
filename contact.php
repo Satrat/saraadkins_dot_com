@@ -4,8 +4,9 @@
 <head>
     <meta charset="utf-8">
     <?php include_once('./blocks/google_analytics.php'); ?>
-    <title>Sara Adkins-Contact Me</title>
+    <title>Sara Adkins-About Me</title>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type='text/css'>
     <link rel="stylesheet" type="text/css" href="/style/style.css">
 </head>
 
@@ -25,7 +26,7 @@
             </br>
             </br>
             <p>Have a question or comment?</p>
-            <p>Interested in booking me for a freelance performance?</p>
+            <p>Interested in booking me for a performance?</p>
             <p>Want to collaborate on a project?</p>
             <h5 style="text-align:center;"> Send me a message!</h5>:
             <br>

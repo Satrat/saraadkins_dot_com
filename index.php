@@ -5,9 +5,9 @@
     <meta charset="utf-8">
 
     <?php include_once('./blocks/google_analytics.php'); ?>
-    <title>Sara Adkins - Musician, Sound Designer, Software Engineer</title>
+    <title>Sara Adkins - Music Technologist, ML Engineer, Guitarist</title>
     <meta name="Description"
-        CONTENT="Sara Adkins is a music tecnologist, classical guitarist and software developer residing in Boston, MA. By day she is a software engineer at Bose Corporation, and by night she freelances as a classical guitarist and makes weird sounds with her laptop.">
+        CONTENT="Sara Adkins is a music tecnologist, classical guitarist and machine learning engineer residing in Boston, MA.">
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet" type='text/css'>
     <link rel="stylesheet" type="text/css" href="/style/style.css">
@@ -47,7 +47,7 @@
             <img src="/Images/arrow2.gif" alt="bottom arrow icon">
         </div>
         <div id="description">
-            <h2>Music Technologist, Engineer, Guitarist</h2>
+            <h2>Creative Technologist, ML Engineer, Musician</h2>
         </div>
     </div>
 </body>

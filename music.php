@@ -85,7 +85,7 @@
             <?php
                 foreach($posts as $post) {
                     echo('<a name="'.$post->name.'"><h5>'.$post->title.'</h5></a>');
-                    echo($post->content);
+                    echo($post->content1);
                     foreach($post->playlist as $song) {
                         $title = str_replace(" ", "", $song->title);
                         echo('<div style="display:none;" id="' . $title . '_description">' . $song->description . '</div>');
@@ -95,6 +95,7 @@
                     echo('<div id="jquery_jplayer_' . $post->name . '" class="jp-jplayer"></div>');
                     echo('<div id="jp_container_' . $post->name . '" class="jp-audio" role="application" aria-label="media player">');
                     include('./blocks/music_player_partial.php');
+                    echo($post->content2);
                     echo('</br><p style="text-align: center"><A HREF="#top">Back to top</a></p>');
                 }
             ?>

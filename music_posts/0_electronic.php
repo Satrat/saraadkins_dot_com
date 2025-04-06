@@ -7,40 +7,49 @@ $post = new MusicPost();
 $post->title = 'Generative & Electronic';
 $post->name = 'electronic';
 $post->card = '/Images/electronic_music.jpg';
-$post->content = '
-<p>My work lies at the intersection of music and technology, with a focus on designing generative music
-algorithms for live performances. Many of my pieces explore how the randomness and automation of an algorithm can be useful
-to a musician\'s creative process as they improvise. I aim to create generative and algorithmic music frameworks that are
-intuitive for musicians to make music with. </p>
-<p>This past June, I led a workshop hosted by Music Hackspace in London to teach composers and producers how they can incorporate machine learning 
-and AI into their creative practice. The talk was geared to creatives with no prior background in programming or ML. We started with a light 
-introduction to RNN and VAE architectures, then I walked participants through freely available VSTs, web apps and Max externals that utilize 
-these models for melody generation and timbre transfer. Check out the full workship recording below!</p> 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/dQfN4hL_YIk" title="YouTube video player" frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-<p>When I first moved to London in September 2021, I attended a SuperCollider Live Coding Music workshop led by Shelly Knotts. I became inspired 
-by this new way of making music, and loved the concept of projecting the music\'s source code as a visual during performance. 
-Live coding seemed like a perfect interface for incorporating AI music algorithms, as much of the melody generation is done using pattern generators 
-and other algorithmic composition techniques. I decided to use live coding as a framework for my Masters thesis, and am currently working on a 
-model for generating loopable phrases for algorave performances. Aside from my thesis work, I\'ve worked on my own SuperCollider sets and have 
-performed at Electronic Music Open Mic Nights around London. A recording of a set I did at The Crypt in Camberwell is included below.</p>
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/wLC_8c2yc7k" title="YouTube video player" frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-<p>For electronic composition, generative or not, I use SuperCollider, Max MSP, PureData, Logic Pro X and Python. Below are some selected tracks
-from my electronic composition projects. My algorithmic piece "Machine Cycle" was premiered in 2018 by the
-Carnegie Mellon Exploded Ensemble. My generative composition "Color Bursts", created with Julian Koreniowsky, ran
-as sound installation in the Phipps Botanical butterfly garden for 4 months. For the technical breakdown of the generative pieces, check out my
-<a href="http://saraadkins.com/portfolio.html">software portfolio page</a>.</p>
+$post->content1 = '
+<p>My work focuses on designing generative music algorithms for live performances. I make sound with my guitar and laptop, blending Tidal Cycles live coding with electric 
+guitar looping. Beginning as a classically trained guitarist, my music has evolved into a unique conglomeration of glitchy ambient techno—a mix of chopped-up nature sounds 
+layered over techno beats, with classical-inspired melodies. I utilize generative ML models and synthesizers in my work, pushing both to their limits to create gnarly timbres.</p>
+
+<p>In October 2024, I was a finalist in the <a href="hhttps://www.aisongcontest.com/all-participants" target="_blank">AI Song Contest</a> for my piece "Echoes of the Synthetic Forest." 
+ This immersive soundscape creates the experience of a relaxing walk through a surreal forest filled with robotic birds and crunchy distorted leaves. I trained AI agent for 
+ concatenative sound synthesis based on my on compositions for this piece, and performed it live at the televised AI Song Contest Finals in Zurich, Switzerland</p>
 ';
 
 $post->playlist = Array();
 
 $post->playlist[] = new Song(
-  "Lime Stone",
+  "Echoes of the Synthetic Forest",
   "",
-  "Electronic soundtrack of a walk through an underground limestone mine, composed in Logic.",
-  "/Audio/Electronic/sadkins_sound_glitter.mp3" 
+  "Concatenative synthesis model trained on my live code compositions, electric guitar, and percussion. AI Song Contest 2024 finalist.",
+  "/Audio/Electronic/kera_synthetic_forest.mp3" 
 );
+$post->playlist[] = new Song(
+  "Forest Walk",
+  "",
+  "Live coded in Tidal Cycles with guitar looping processed through an Roland GR-55 Synthesizer.",
+  "/Audio/Electronic/forest_walk.mp3" 
+);
+$post->playlist[] = new Song(
+  "Techno Rhapsody",
+  "",
+  "Live coded with Tidal Cycles, using motifs from classical composers Stravinsky and Shostakovich.",
+  "/Audio/Electronic/techno_rhapsody.mp3" 
+);
+$post->playlist[] = new Song(
+  "The Bayou",
+  "",
+  "Live coded with Tidal Cycles and SuperCollider.",
+  "/Audio/Electronic/the_bayou.mp3" 
+);
+$post->playlist[] = new Song(
+  "Waiting For Godot-livery",
+  "",
+  "Video game soundtrack made for a Game Jam using Ableton. Simulates the thrill of waiting for your package to be delivered.",
+  "/Audio/Electronic/waiting_for_godot-livery.mp3"
+);
+
 $post->playlist[] = new Song(
   "Machine Cycle",
   "",
@@ -59,12 +68,35 @@ $post->playlist[] = new Song(
   "Collaboration with Julian Koreniowsky. Generative composition created with PureData and Logic, inspired by the vibrant flowers in a Pittsburgh butterfly garden.",
   "/Audio/Electronic/Color_Bursts.mp3" 
 );
-$post->playlist[] = new Song(
-  "Not a Chance in Hell",
-  "",
-  "Short intro theme for an online Dungeons and Dragons campaign, composed in Logic.",
-  "/Audio/Electronic/DnD_Theme.mp3"
-);
+
+$post->content2 = '
+<p>I perform using TidalCycles live coding and electric guitar throughout New England and New York. In June 2024, I performed at Wonderville in Brooklyn with LiveCode NYC, 
+where I processed my guitar through a Roland GR-55 Guitar Synthesizer and recorded loops into Tidal Cycles using the 
+<a href="https://github.com/thgrund/tidal-looper"" target="_blank">tidal-looper</a> library. </p>
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/Rt2XoHWeXVA?si=RlDj-qg3Rix4PxEC" title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+
+<p>In Fall 2023, I collaborated with researcher\'s at McGill CIRMMT and visual artist Angus MacMinn to create an interactive audiovisual installation in the Satosphere at the Société 
+des arts technologiques (SAT) in Montreal. The generative music for this installation used SuperCollider and machine learning to create responsive sonic environments that adapted to 
+participant movements captured by <a href="http://www-new.idmil.org/project/the-t-stick/" target="_blank">T-Sticks</a>, and morphed from natural ambient sounds to distorted electronics. </p>
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/Kt4FWBp3Xoo" title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+
+<p>In June 2022, I led a workshop hosted by Music Hackspace in London to teach composers and producers how they can incorporate machine learning 
+and AI into their creative practice. The talk was geared to creatives with no prior background in programming or ML. We started with a light 
+introduction to RNN and VAE architectures, then I walked participants through freely available VSTs, web apps and Max externals that utilize 
+these models for melody generation and timbre transfer. </p> 
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/dQfN4hL_YIk" title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+<p> In April 2022, I performed my first ever live SuperCollider set at The Crypt in Camberwell, London. I made my own custom digital synths for this live code set. </p>
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/wLC_8c2yc7k" title="YouTube video player" frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+<p>For more information on the technical breakdown of my generative pieces, check out my <a href="http://saraadkins.com/portfolio.html">software portfolio page</a>.</p>
+'
 
 ?>
-

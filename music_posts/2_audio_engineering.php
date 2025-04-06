@@ -7,7 +7,7 @@ $post = new MusicPost();
 $post->title = 'Audio Engineering';
 $post->name = 'audio_engineering';
 $post->card = '/Images/generative_music.jpg';
-$post->content = '
+$post->content1 = '
 <p>During my undergraduate degree at Carnegie Mellon, I worked as a sound engineer in the Vladmir Recording Studio. I was
 responsible for running recording sessions and mixing tracks for local Pittsburgh artists. Below are several samples
 of my mixing and mastering work from a variety of genres. All tracks were recorded and edited using Pro Tools.</p>
@@ -45,6 +45,8 @@ $post->playlist[] = new Song(
   "Jazz Funk. Composed and performed by The Clock Reads.",
   "/Audio/Mastering/Spumoni Bomba.mp3"
 );
+
+$post->content2 = ''
 
 ?>
 
